@@ -1,4 +1,4 @@
-$('.image').click(function() {
+$('.image').dblclick(function() {
   $('#cross').toggle('slow', function() {
     // Animation complete.
   });
@@ -6,21 +6,21 @@ $('.image').click(function() {
 
 
 
-$('.image2').click(function() {
+$('.image2').dblclick(function() {
   $('#cross2').toggle('slow', function() {
     // Animation complete.
   });
 });
 
 
-$('.image3').click(function() {
+$('.image3').dblclick(function() {
   $('#cross3').toggle('slow', function() {
     // Animation complete.
   });
 });
 
 
-$('.image4').click(function() {
+$('.image4').dblclick(function() {
   $('#cross4').toggle('slow', function() {
     // Animation complete.
   });
